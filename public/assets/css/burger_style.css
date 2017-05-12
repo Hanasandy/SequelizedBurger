@@ -1,0 +1,70 @@
+html, body, .container {
+    height: 100%;
+    font-family: 'Niconne', cursive;
+    font-family: 'Muli', sans-serif; 
+}
+body {
+    background-color: #d63229;
+    color: #fff;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+.btn-xs {
+    float: right;
+}
+#update {
+    float: left;
+}
+#add {
+    display: block;
+    text-align: center;
+    height: 10%;
+}
+#add > textarea {
+    width: 60%;
+    height: 120%;
+    color: #e64f18;
+    padding: 19px;
+}
+.well {
+    float: left;
+    width: 95%;
+    color: #e64f18;
+
+}
+.label {
+  font-weight: bold;
+}
+.devour-submit{
+    background-color: #fff200;
+    color:#808080;
+    font-weight: bolder;
+}
+.devoured {
+    width: 95%;
+}
+#burger-submit{
+    background-color: #fff200;
+    color:#808080;
+    font-weight: bolder;
+}
+.form-group {
+  margin-bottom: 5px;
+}
