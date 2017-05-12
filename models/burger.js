@@ -10,10 +10,7 @@ module.exports = function(sequelize, DataTypes) {
     // },
     name: {
       type: DataTypes.STRING,
-      defaultValue: false,
-      validate: {
-        len: [1]
-      }
+      defaultValue: false
     }, 
     devoured: {
         type: DataTypes.BOOLEAN,
