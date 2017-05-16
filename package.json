@@ -12,7 +12,7 @@
     "body-parser": "^1.17.1",
     "express": "^4.15.2",
     "express-handlebars": "^3.0.0",
-    "install": "^0.10.0",
+    "install": "^0.10.1",
     "method-override": "^2.3.8",
     "mysql": "^2.13.0",
     "path": "^0.12.7",
@@ -22,5 +22,13 @@
     "node": "v6.9.5"
   },
   "keywords": [],
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanasandy/SequelizedBurger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hanasandy/SequelizedBurger/issues"
+  },
+  "homepage": "https://github.com/Hanasandy/SequelizedBurger#readme"
 }

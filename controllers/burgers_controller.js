@@ -32,7 +32,7 @@ router.post("/", function (req, res) {
         name: req.body.name,
         devoured: req.body.devoured
     }).then(function(){
-        res.direct("/");
+        res.redirect("/");
     });
 });
 
@@ -44,14 +44,14 @@ router.put("/:id", function (req, res) {
     // burger.updateOne({devoured: req.body.devoured}, condition, function () {
     //     res.redirect("/");
     // });
-    db.Burger.updated({
+    db.Burger.update({
         devoured: req.body.devoured
     },{
         where: {
             id:req.params.id
         }
     }).then(function(){
-        res.redirct("/");
+        res.redirect("/");
     });
 });
 
